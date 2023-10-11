@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    height: 620px;
+    border: solid 5px violet;
+    background-color: rgb(11, 11, 88);
+
+}
+.header{
+    width: 70%;
+    height: 40px;
+    /* border: solid 1px black; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    color: white;
+}
+.header_left{
+    width: 40%;
+    height: 100%;
+    /* border: solid 1px violet; */
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.header_right{
+    width: 60%;
+    height: 100%;
+    /* border: solid 2px violet; */
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.section{
+    width: 70%;
+    height: 420px;
+    /* border: solid 1px black; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec_left{
+    width: 45%;
+    height: 90%;
+    /* border: solid 1px black; */
+    color: white;
+    /* margin: auto; */
+    /* padding: 30px; */
+   
+}
+.sec_left div{
+    height: 50%;
+}
+.sec_left1{
+    margin-left: 10px;
+}
+.sec_left2{
+    padding: 15px;
+    width: 80%;
+}
+
+h1{
+    font-size: 4.3vw;
+}
+.sec_right{
+    width: 45%;
+    height: 100%;
+    /* border: solid 1px black; */
+    /* margin: auto; */
+    background-color: white;
+    border-radius: 6px;
+    text-align: center;
+
+   
+}
+h2{
+    text-align: center;
+}
+input{
+    border-radius: 15px;
+    /* margin-top: 10px; */
+    width: 60%;
+    height: 40px;
+    border-color: grey;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+label{
+    color: rgb(165, 162, 162);
+}
+.checked1{
+    width: 12px;
+    height: 12px;
+    background-color: aqua;
+    
+}
+.sec_right button{
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: white;
+    color: white;
+}
+span{
+    color: rgb(14, 197, 197);
+}
+.login{
+    background-color: rgb(31, 166, 219);
+}
+.Signin{
+    background-color: rgb(19, 19, 100);
+}
+.btn{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: red;
+}
+.or{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.or div{
+    border: solid 1px rgb(216, 208, 208);
+    height: 0%;
+    width: 40%;
+}
+.or p{
+    margin: 5px;
+    color: gray;
+}
+body{
+}
+.Overview{
+    color: rgb(82, 78, 78);
+}
